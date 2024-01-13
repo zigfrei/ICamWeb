@@ -1,0 +1,28 @@
+.partners__subtitle {
+  font-family: $secondFont;
+  margin: 12px 0 0 0;
+  padding: 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 2px;
+  color: $main-colors-dark-blue;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .partners__subtitle {
+    font-size: 18px;
+    line-height:22px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .partners__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 10px;
+  }
+}

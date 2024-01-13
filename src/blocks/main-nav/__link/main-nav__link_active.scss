@@ -1,0 +1,20 @@
+.main-nav__link_active {
+  display: flex;
+  align-items: center;
+  border-bottom: solid 3px;
+  border-color: $main-colors-red;
+
+}
+
+@media screen and (max-width: 767px) {
+  .main-nav__link_active {
+    color: $main-colors-white;
+    background: linear-gradient(45deg,#ea6e48 0,#bc1a63 100%);
+    border-bottom: unset;
+    height: 50px;
+    width: 180px;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(3px);
+    border-radius: 0 5px 5px 0;
+  }
+}

@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="En">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I Can Web test</title>
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__logo logo">
+          <a href="#" class="logo__link"><div class="logo__image"></div></a>
+          <div class="logo__text">
+            <a href="#" class="logo__link"
+              ><h1 class="logo__title">Accu-Traffic Inc.</h1></a
+            >
+            <a href="#" class="logo__link"
+              ><h2 class="logo__subtitle logo__subtitle_blue">
+                Traffic Monitoring & Data Analysis
+              </h2></a
+            >
+          </div>
+        </div>
+        <button id="header__button" class="header__button"></button>
+
+        <nav id="main-nav" class="main-nav" aria-label="Main">
+          <ul id="main-nav__list" class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="#about-us" class="main-nav__link">About us</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#services" class="main-nav__link">Services</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#partners" class="main-nav__link">Our Clients</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#contacts" class="main-nav__link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="intro">
+          <img
+            src="<%=require('./images/intro_big-tiny.jpg')%>"
+            alt="Traffic image"
+            class="intro__image"
+          />
+        </section>
+        <section class="about-us content-group" id="about-us">
+          <h2 class="about-us__title">About Us</h2>
+          <p class="about-us__text">
+            Accu-Traffic Inc. is a professional traffic data collection company
+            which has continually developed effective and high quality traffic
+            data capture and reporting guidelines. We work closely with our
+            clients in order to provide them with personalized solutions they
+            have grown to expect from us. Accu-Traffic provides public and
+            private sector clients with a complete range of professional traffic
+            data collection services. Ranging in size and scope, Accu-Traffic’s
+            clients operate primarily in municipal, transportation,
+            environmental and industrial sectors. We provide them with
+            consultation on all traffic data collection aspects. Our commitment
+            to clients is the top priority for us. Our team consists of highly
+            qualified professionals in the traffic data collection and project
+            management. This experience, along with our high level of motivation
+            and excellent performance has allowed us to maintain the status of
+            one of the top companies in the field of traffic data collection.
+          </p>
+          <p class="about-us__text about-us__text_bold">
+            To continue our role as a premier leader in the field, we are
+            dedicated to providing our clients with superior products, practical
+            solutions and unparalleled customer service!
+          </p>
+        </section>
+        <section class="services content-group" id="services">
+          <h2 class="services__title">Services</h2>
+          <h3 class="services__subtitle">What we are doing...</h3>
+
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="service__card">
+                  <h2 class="service__card-title">
+                    Manual Turning Movement Counts
+                  </h2>
+                  <div class="service__card-content">
+                    <img
+                      src="<%=require('./images/card-manual-count-tiny.jpg')%>"
+                      alt="Traffic image"
+                      class="services__image"
+                    />
+                    <div class="services__card-text">
+                      <p class="services__card-paragraf">
+                        Traffic counts (Vehicles (Cars, Light and Medium Trucks,
+                        Heavy Trucks, Buses, Pedestrians, etc.) passing through
+                        a point, or through an intersection. The data can be
+                        recorded in a variety of ways with the use of TFR-2
+                        Gretch boards. Traffic counts can be used in traffic
+                        impact studies or evaluation of traffic signal warrants
+                        analyses among others.
+                      </p>
+                      <p class="services__card-paragraf">
+                        While administering manual turning movement counts,
+                        proper procedures are essential for attaining accurate
+                        results. We have a rigorous quality control program in
+                        place and all our surveyors receive proper and thorough
+                        training to make sure that all client requirements are
+                        satisfied.
+                      </p>
+                      <p class="services__card-paragraf">
+                        Data collection options include up to six custom classes
+                        per any time period bin to be surveyed. Usually, data is
+                        accumulated by fifteen minute intervals. Results are
+                        generally presented electronically, in an easy to read
+                        format, depending on client specifications.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="service__card">
+                  <h2 class="service__card-title">
+                    Licence Plate Surveys / Origin and Destination Studies
+                  </h2>
+                  <div class="service__card-content">
+                    <img
+                      src="<%=require('./images/license-plate-tiny.jpg')%>"
+                      alt="Licence Plate Surveys image"
+                      class="services__image"
+                    />
+                    <div class="services__card-text">
+                      <p class="services__card-paragraf">
+                        These studies are normally conducted through personal
+                        interviews, mail interviews, licence plate tracking, or
+                        most recently, automatic license plate recognition
+                        systems (ALPR). Accu-Traffic Inc. is proud of the fact
+                        that ALPR is part of our data collection effort.
+                      </p>
+                      <p class="services__card-paragraf">
+                        We take care of all your requirements and present a
+                        cost-effective solution with utmost detail for resource
+                        allocation and scheduled delivery dates right from the
+                        start. We work with you, starting from the initial
+                        concept and going all the way to the closing stages in
+                        order to help you get the desired results when you want
+                        them and how you want them. We eliminate the guesswork
+                        and present clear-cut solutions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="service__card">
+                  <h2 class="service__card-title">
+                    Parking Lot Occupancy and Turnover Counts
+                  </h2>
+                  <div class="service__card-content">
+                    <img
+                      src="<%=require('./images/parking-tiny.jpg')%>"
+                      alt="Parking image"
+                      class="services__image"
+                    />
+                    <div class="services__card-text">
+                      <p class="services__card-paragraf">
+                        Inventory of Parking Facilities
+                      </p>
+                      <p class="services__card-paragraf">Accumulation Counts</p>
+                      <p class="services__card-paragraf">
+                        Duration and Turnover Surveys
+                      </p>
+                      <p class="services__card-paragraf">
+                        Administration of both the public and private parking
+                        supply is essential for maintaining the success of
+                        businesses and municipalities. The implementation or
+                        installation of dynamic car park guidance systems that
+                        reduce wasted time for drivers, searching for lot
+                        availability, as well as vehicle pollution are common
+                        management tools.
+                      </p>
+                      <p class="services__card-paragraf">
+                        Accu-Traffic Inc can support clients in implementing
+                        these solutions through administration of surveys to
+                        establish demand, duration of stay, turnover, and abuse
+                        of regulations or permit schemes. Detailed results are
+                        provided for each vehicle parked. Summary information on
+                        a parking zone basis is also offered dependent on client
+                        requirements.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="service__card">
+                  <h2 class="service__card-title">
+                    Bicycle Counts/Non-motorised surveys
+                  </h2>
+                  <div class="service__card-content">
+                    <img
+                      src="<%=require('./images/bicycle-tiny.jpg')%>"
+                      alt="Bicycle Counts image"
+                      class="services__image"
+                    />
+                    <div class="services__card-text">
+                      <p class="services__card-paragraf">
+                        To better measure the environmental benefits that result
+                        from cycling in comparison to the usage of motorized
+                        vehicles, make bicycle counts extremely important
+                        nowadays. These counts help provide the information
+                        about the cyclists’ commuting habits, mode choices and
+                        needs. Transportation professionals will be able to
+                        track and monitor trends and calculate VMT (vehicle
+                        mileage travelled) and associated greenhouse gas
+                        emission reductions over time. The data also will assist
+                        in planning for bicycle parking at transit stations
+                        along with other applications.
+                      </p>
+                      <p class="services__card-paragraf">
+                        Data counts as well as user interviews and delay times
+                        measurement at crossing points are core services present
+                        combined with data presentation in a variety of formats.
+                        Our experience allows us to present recommendations to
+                        clients, regarding proper cost-effective techniques for
+                        data collection. We understand the specific needs of
+                        non-motorised users and take into account key safety
+                        issues during survey design.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="service__card">
+                  <h2 class="service__card-title">
+                    Automatic Traffic Recorder (ATR) Counts
+                  </h2>
+                  <div class="service__card-content">
+                    <img
+                      src="<%=require('./images/atr.jpg')%>"
+                      alt="Automatic Traffic Recorder image"
+                      class="services__image"
+                    />
+                    <div class="services__card-text">
+                      <p class="services__card-paragraf">
+                        ATR counting is the solution for gathering large amounts
+                        of traffic volume data throughout specific timeframe
+                        which can range from a more general 24-hour counts to an
+                        extended 168+ hours periods. ATR counts are undertaken
+                        by means of pneumatic tubes that measure the direction
+                        of flow, traffic speed, vehicle classification and other
+                        crucial variables.
+                      </p>
+                      <p class="services__card-paragraf">
+                        Automatic Traffic Recorders (ATRs) offer a quick,
+                        affordable, and reliable way to collect vehicle data
+                        over any period and can be presented in a range of
+                        formats to suit individual client requirements.
+                      </p>
+                      <p class="services__card-paragraf">
+                        Automatic traffic count data is used for a variety of
+                        purposes to support transport planning and design
+                        considerations. It is a highly cost effective method of
+                        collecting large volumes of classified and/ or speed
+                        data. Accu-Traffic has always been at the forefront of
+                        the market for collecting and presenting this data.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="service__card">
+                  <h2 class="service__card-title">Travel Time Studies</h2>
+                  <div class="service__card-content">
+                    <img
+                      src="<%=require('./images/time-travel-tiny.jpg')%>"
+                      alt="Travel image"
+                      class="services__image"
+                    />
+                    <div class="services__card-text">
+                      <p class="services__card-paragraf">
+                        Travel Time studies are used to document congestion and
+                        to quantify of the actual impact of road improvements.
+                        They help to monitor the performance of the roadway
+                        system, and observe trends in vehicle travel time, delay
+                        and congestion during peak travel periods. Most travel
+                        time study techniques involve using GPS equipment
+                        receivers which are able to automatically record
+                        distance, time, and speed at any given time on the road.
+                      </p>
+                      <p class="services__card-paragraf">
+                        The purposes of travel time studies are to identify
+                        problem locations in area, determine the level of
+                        service of the facility, and provide travel time for
+                        economic evaluation of transportation improvement and
+                        information for travellers.
+                      </p>
+                      <p class="services__card-paragraf">
+                        Most common techniques for travel time studies are
+                        floating-car approach, licence-plate approach and GPS
+                        based approach.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="service__card">
+                  <h2 class="service__card-title">
+                    Gap, Queue, Left Turn and Delay Studies
+                  </h2>
+                  <div class="service__card-content">
+                    <img
+                      src="<%=require('./images/delay-tiny.jpg')%>"
+                      alt="Traffic image"
+                      class="services__image"
+                    />
+                    <div class="services__card-text">
+                      <p class="services__card-paragraf">
+                        Delay is defined as an extra time spent by drivers
+                        against their expectation. Delay can have many forms
+                        depending on different locations. Accurate estimation of
+                        delays has many implications in traffic engineering
+                        studies. Transportation planners will use delay to
+                        evaluate economic loses, whereas traffic engineers will
+                        use delays to determine level of service at signalized
+                        intersections. There are several methods of conducting
+                        intersection delays: Licence-plate method,
+                        sample-counting or cycle-based method.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="service__card">
+                  <h2 class="service__card-title">Spot Speed Studies</h2>
+                  <div class="service__card-content">
+                    <img
+                      src="<%=require('./images/speed-tiny.jpg')%>"
+                      alt="Speedometer image"
+                      class="services__image"
+                    />
+                    <div class="services__card-text">
+                      <p class="services__card-paragraf">
+                        Speed studies are used primarily to determine the
+                        distribution of traffic speeds, or vehicle speed/class
+                        percentiles, at specific location.
+                      </p>
+                      <p class="services__card-paragraf">
+                        Spot speed – defined as the average speed of vehicles
+                        passing a point. It is the mostly used indicator that
+                        traffic engineers use to measure the speed that drivers
+                        freely select, meaning that spot speed studies are under
+                        free flow conditions. Spot speed collection methods
+                        include: Radar meters, stop-watch method, loop detector,
+                        video detector.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="service__card">
+                  <h2 class="service__card-title">Pedestrian Counts</h2>
+                  <div class="service__card-content">
+                    <img
+                      src="<%=require('./images/pedestrian-tiny.jpg')%>"
+                      alt="Pedestrian image"
+                      class="services__image"
+                    />
+                    <div class="services__card-text">
+                      <p class="services__card-paragraf">
+                        There are many reasons for pedestrian counts. Counts are
+                        often required in the street design process as inputs to
+                        transport models, for capacity assessments, to measure
+                        the attractiveness of different spaces, to estimate
+                        route choices or for the appraisal of different design
+                        options.
+                      </p>
+                      <p class="services__card-paragraf">
+                        Pedestrians are more difficult to count than motor
+                        vehicles or bicycles because their paths are much less
+                        constrained. Pedestrians can stand, pace back and forth,
+                        use a wheelchair, or walk by in groups with no light
+                        gaps in-between them to be detected by a counter.
+                      </p>
+                      <p class="services__card-paragraf">
+                        While automated counting technology for motor vehicles
+                        has been in use for many years, automated pedestrian
+                        counting technology is less developed. Most pedestrian
+                        counts are done manually (see photo), but this method
+                        suffers from variations in quality depending on the
+                        reliability of the person counting. Automated counting
+                        would be preferred if a reliable technology, or group of
+                        technologies can be deployed.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="service__card">
+                  <h2 class="service__card-title">Interview Studies</h2>
+                  <div class="service__card-content">
+                    <img
+                      src="<%=require('./images/test-tiny.jpg')%>"
+                      alt="Test image"
+                      class="services__image"
+                    />
+                    <div class="services__card-text">
+                      <p class="services__card-paragraf">
+                        Urban transport studies include: home interview surveys,
+                        commercial vehicle surveys, roadside interviews and
+                        public transport surveys.
+                      </p>
+                      <p class="services__card-paragraf">
+                        During all stages of project design, Accu-Traffic works
+                        with clients to develop solutions which meet their
+                        modelling data requirements while minimising driver
+                        disruptions. This includes visiting and reviewing site
+                        locations, deploying interview/questioner forms or
+                        providing self-completion card designs through the
+                        cooperation with local property owners or businesses.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="service__card">
+                  <h2 class="service__card-title">Transit Studies</h2>
+                  <div class="service__card-content">
+                    <img
+                      src="<%=require('./images/public-tiny.jpg')%>"
+                      alt="Transit Studies image"
+                      class="services__image"
+                    />
+                    <div class="services__card-text">
+                      <p class="services__card-paragraf">
+                        Transit Studies play an important role in evaluation of
+                        potential methods and benefits of expanding and
+                        optimizing a transportation system.
+                      </p>
+                      <p class="services__card-paragraf">
+                        (Accu-Traffic works with all types of public transport
+                        operators (rail, bus, ferry and underground). We are
+                        able to mobilize large survey teams to collect extensive
+                        quantitative and qualitative data on passengers and/ or
+                        level of service delivery. Both count data and travel
+                        questionnaires, either completed at stops or during the
+                        trip, present a wide range of information for the
+                        planning and review of services.)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- ... -->
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </section>
+
+        <section class="partners content-group" id="partners">
+          <h2 class="partners__title">Some of Our Clients</h2>
+          <ul class="partners__list">
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/landenhomes.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/intact.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/cima.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/ARUP.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/oxford.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/Lambton.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/exp.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/innisfil.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/Haldimand.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/sarnia.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/sfrontenac.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/vaughan.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/brantford.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/guelph.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/HDR.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/rjburnside.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/wood.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/crosslinx2.jpg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/mmmgroup.jpg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/cambridge.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/bagroup.jpg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/thamesCentre.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/rva.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/coleEngin.jpg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/tatham.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/candevcon.jpg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/whitchurch-stouffville.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/metrolinx.jpg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/devtrans.jpg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/newTecumseth.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/Stantec.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/Lambton.jpg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/dundaswestbia.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/nexTrans.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/mea.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/cibc.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/urs.jpg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/ramboll.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/brampton.jpg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/richmondHill.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/jd.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/Bertram.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/paradigm.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/jade.jpg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/crozier.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/GHD.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/brookfield.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/aecom.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/waterloo.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/Wpd.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/WSP Group old.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/snc.jpg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/viva.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/fn.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/ainley.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/Hatch.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/barrie.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/planmac.jpg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/valcoustics.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/peterborough.png')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+            <li class="partners__partner">
+              <img
+                src="<%=require('./images/partners/ajax.svg')%>"
+                alt="Partner logo image"
+                class="partners__partner-logo"
+              />
+            </li>
+          </ul>
+          <h2 class="partners__subtitle">more than 100 diverse clients served</h2>
+        </section>
+        <section class="contacts content-group" id="contacts">
+          <div class="contacts__wrapper">
+            <div class="contacts__column">
+              <h2 class="contacts__title">Contact Us</h2>
+              <h3 class="contacts__subtitle">
+                We're excited to work with you. Become our long term partner by
+                completing a quick form below to initiate a conversation.
+              </h3>
+
+              <form
+                name="submit-form"
+                class="contacts__form form"
+                action="#"
+                method="POST"
+                novalidate
+              >
+                <div class="form__field-name">
+                  <div class="form__field" aria-required="true">
+                    <div class="form__placeholder">
+                      <label class="form__placeholder-label">FIRST NAME</label>
+                      <label class="form__placeholder-required">*</label>
+                    </div>
+                    <input
+                      minlength="2"
+                      maxlength="40"
+                      type="text"
+                      id="first_name"
+                      name="first_name"
+                      class="form__field-input"
+                      aria-required="true"
+                      required
+                      aria-invalid="false"
+                    />
+                    <span
+                      class="form__field-error form__field-error_active first_name-error"
+                    ></span>
+                  </div>
+                  <div class="form__field" aria-required="true">
+                    <div class="form__placeholder">
+                      <label class="form__placeholder-label">LAST NAME</label>
+                      <label class="form__placeholder-required">*</label>
+                    </div>
+                    <input
+                      minlength="2"
+                      maxlength="40"
+                      type="text"
+                      id="second_name"
+                      name="second_name"
+                      class="form__field-input"
+                      aria-required="true"
+                      required
+                      aria-invalid="false"
+                    />
+                    <span
+                      class="form__field-error form__field-error_active second_name-error"
+                    ></span>
+                  </div>
+                </div>
+                <div class="form__field">
+                  <div class="form__placeholder">
+                    <label class="form__placeholder-label">COMPANY</label>
+                  </div>
+                  <input
+                    minlength="2"
+                    maxlength="40"
+                    type="text"
+                    id="company"
+                    name="company"
+                    class="form__field-input"
+                    aria-invalid="false"
+                  />
+                  <span
+                    class="form__field-error form__field-error_active company-error"
+                  ></span>
+                </div>
+                <div class="form__field" aria-required="true">
+                  <div class="form__placeholder">
+                    <label class="form__placeholder-label">EMAIL</label>
+                    <label class="form__placeholder-required">*</label>
+                  </div>
+                  <input
+                    minlength="2"
+                    maxlength="40"
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form__field-input"
+                    aria-required="true"
+                    required
+                    aria-invalid="false"
+                  />
+                  <span
+                    class="form__field-error form__field-error_active email-error"
+                  ></span>
+                </div>
+                <div class="form__field-textarea" aria-required="true">
+                  <div class="form__placeholder">
+                    <label class="form__placeholder-label">MESSAGE</label>
+                    <label class="form__placeholder-required">*</label>
+                  </div>
+                  <textarea
+                    type="text"
+                    id="message"
+                    name="message"
+                    class="form__field-input"
+                    aria-required="true"
+                    required
+                    aria-invalid="false"
+                    placeholder="How we can help?"
+                  ></textarea>
+                  <span
+                    class="form__field-error form__field-error_active message-error"
+                  ></span>
+                </div>
+
+                <button type="submit" class="form__submit-button">
+                  SUBMIT
+                </button>
+                <span id="form-response" class="form__response"></span>
+              </form>
+            </div>
+
+            <div class="contacts__column">
+              <h2 class="contacts__title">Customized field services</h2>
+              <h3 class="contacts__subtitle">
+                Our team of professionals will ensure your requirements are met
+                and will work with you to customize the approach from start to
+                finish of the project.
+              </h3>
+              <div class="address">
+                <h3 class="address__title">OUR ADDRESS:</h3>
+                <p class="address__text">Accu-Traffic Inc.</p>
+                <p class="address__text">85 West Wilmot St., Unit 13,</p>
+                <p class="address__text">Richmond Hill, ON</p>
+                <p class="address__text">L4B 1K7</p>
+                <p class="address__text">
+                  <span class="address__text_bold">TEL:</span
+                  ><a href="tel:+14169100171" class="address__link">
+                    +1-416-910-0171</a
+                  >
+                </p>
+                <p class="address__text">
+                  <span class="address__text_bold">FAX:</span> +1-888-711-3125
+                </p>
+                <p class="address__text">
+                  <span class="address__text_bold">EMAIL:</span
+                  ><span id="address-email" class="address__link_wrapper">
+                    solutions<span class="address__link adress__link_nospam"
+                      >accu-traffic.ca</span
+                    ></span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="contacts__map">
+            <iframe
+              title="Google map with address"
+              src="https://www.google.com/maps/d/embed?mid=1Wp13B0aVvpnMPru42ze3MCeZ2xpoYX8&ehbc=2E312F"
+              width="640"
+              height="480"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__logo logo">
+          <a href="#" class="logo__link"><div class="logo__image"></div></a>
+          <div class="logo__text">
+            <a href="#" class="logo__link"
+              ><h2 class="logo__title">Accu-Traffic Inc.</h2></a
+            >
+            <a href="#" class="logo__link"
+              ><h3 class="logo__subtitle_azure logo__subtitle">
+                Traffic Monitoring & Data Analysis
+              </h3></a
+            >
+          </div>
+        </div>
+        <p class="footer__text">
+          Copyright © 2023 Accu-Traffic Inc. All Rights Reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+.main-nav__link {
+  color: $main-colors-dark-blue;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .main-nav__link {
+    padding-left: 15px;
+  }
+}

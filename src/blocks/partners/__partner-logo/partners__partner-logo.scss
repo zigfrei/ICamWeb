@@ -1,0 +1,25 @@
+.partners__partner-logo {
+  width: 100%;
+  height: auto;
+  filter: grayscale(1);
+  opacity: .5;
+  transition: all 0.8s ease-in-out;
+  cursor: pointer;
+  max-width: 150px;
+  max-height: 100px;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+.partners__partner-logo:hover {
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+@media screen and (max-width: 768px) {
+  .partners__partner-logo {
+    opacity: 1;
+    filter: grayscale(0);
+  }
+  }
+
